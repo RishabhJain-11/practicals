@@ -1,0 +1,29 @@
+It revolves around the basic idea of objects.
+Objects can be considered as real world instances.
+
+Class is a template on which different objects can be created.
+- for eg. A blue suv car is to be made. - this is a class(template)
+- now from this we can make different types of cars which all have different functions according to customer's requirement.
+- and these variations are known as objects
+
+The concept of objects allows the oop model to easily access and modify the instance data and
+methods interact with other objects and define methods in runtime, the oop model significance and makes it diverse in its implementation.
+
+object can be considered as real world instances of entities like class, that have some characteristics and behavior
+
+oop features: 
+- inheritance
+- encapsulation
+- polymorphism
+- data abstraction
+
+encapsulation - method of putting everything that is required to do the job, all the necessary data and method are bind all the things and the unnecessary details are hidden to the normal user.So encapsulation in the process of binding data members and methods of a program together to do a specific job, without revealing unnecessary details.
+
+data hiding - encapsulation is the process of hiding unwanted information such as restricting access to any member of an object.
+
+data binding - encapsulation is the process of binding the data members and the methods together as a whole as a class.
+
+polymorphism - poly as many 
+morph - shapes 
+therefore polymorphism refers to something that has many shapes.
+shapes - circle, square, 
