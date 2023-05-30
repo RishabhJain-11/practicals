@@ -1,0 +1,24 @@
+Click on Google Cloud Platform
+Create New Project
+Google App Engine New Project
+
+Project Name - .....
+Java Package - com.package_Name
+Next
+Select App Engine API
+Finish
+
+Go to 'src' -> main -> java -> 
+src -> webapp -> index.html and makes changes over here
+
+If there are errors in Java file then do the following
+- Right Click on Project and then go to build path -> Configure Build Path
+
+-> Add Library-> Server Runtime -> Next -> Apache Tomcat -> Finish -> 
+ 
+
+Project Tab -> Clean Project
+
+Right Click on Project -> Build Project -> Run as -> Run on Server
+
+-> Choose an existing server -> Finish

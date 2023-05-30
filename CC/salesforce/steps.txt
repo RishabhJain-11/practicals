@@ -1,0 +1,73 @@
+Go to developer.salesforce.com/signup 
+login
+signup
+
+Click on object manager
+
+Click on Create -> Custom Project
+
+Label: Student_A
+Plural_Label: Students_A
+Object Name : Student_A
+Desc : Student ----------------
+Click on (Save and New)
+
+Label: Book
+Plural_Label: Books
+Object Name : Book
+Desc : Book----------------
+Click on (Save and New)
+
+Finish / Cancel
+
+Click on Object Manager and  click on any of those
+
+Field & Relationship - (sidebar)
+
+Click on New Button
+Datatype click on Text Radio Button -> Next
+New Custom Field
+field_name : Author Name
+length : 20
+Desc : --------------------
+required
+Next -> Next -> Save and New
+
+
+Datatype click on Text Radio Button -> Next
+New Custom Field
+field_name : Publisher Name
+length : 20
+Desc : --------------------
+required
+Next -> Next -> Save
+
+Now click on Object Manager -> Student_A -> field and rel -> text -> New Custom Field -> class -> save -> 
+
+
+Setting Icon Tab -> Setup -> Search for "tabs" 
+-- click on new - Book - tabstyle = Bottle = Next - Next - Save
+
+Setting Icon Tab -> Setup -> Search for "tabs" 
+-- click on new - Student_a- tabstyle = Computer = Next - Next - Save
+
+Setting Icon -> Setup -> Search for "App Management"
+- Click on New Lightining App
+
+-- App Name : Library Mgmt System
+-- Desc : 
+-- Dev Name : Library Mgmt System
+
+then click - next - next -next 
+
+
+then you can choose a tab if you want to add such as any student_a, Book
+
+Next -> Click on System Admin -> Next 
+Save and Finish -> 
+
+Click on App Launcher
+
+- Library Mgmt System
+
+

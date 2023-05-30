@@ -1,0 +1,52 @@
+Click on "New" to create 1st virtual box 
+and give name -> VM1, type-> Linux, version -> 64bit
+Click on next - next 
+Use an existing virtual hardisk (ubuntu 18.04 amd - 64)
+and then click on create
+--------------------------------------------------
+Create the second VM similarly
+
+--------------------------------------------------
+Go to file - preferences - network - (NAT Network) - Ok
+
+--------------------------------------------------
+Right Click on VM1 - settings - network - attach to: nat network - ok
+Right Click on VM2 - settings - network - attach to: nat network - ok
+--------------------------------------------------
+
+Click on VM2 and VM1 and click on big start (arror symbol ->)
+
+--------------------------------------------------
+Login to VM1 - login : vagrant
+	password : vagrant
+Login to VM2 - login : vagrant
+	password : vagrant
+--------------------------------------------------
+First we need to check ip address of the machine 
+put command : ifconfig --- (on both VM's)
+
+then the inet of both the VM's should be different for eg. 
+- inet 10.0.2.17
+- inet 10.0.2.16
+
+--------------------------------------------------
+
+Check for an existing files : ls
+
+--------------------------------------------------
+Now do :- it in VM1
+: touch rishabh.txt
+: cat rishabh.txt
+: nano rishabh.txt
+Insert text as follows 
+>> Hello I am Rishabh Jain
+Ctrl+S, Ctrl + X
+
+--------------------------------------------------
+Now check for filename in VM2 do : ls
+
+
+--------------------------------------------------
+In VM1 : scp rishabh.txt vagrant@inet 10.0.2.16/home/vagrant
+yes
+pwd : vagrant
