@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0/jquery.mobile-1.5.0.min.css">
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        p {
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        /* Header styles */
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Main content styles */
+        .main-content {
+            padding: 20px 0;
+        }
+
+        .collapsible-content {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+        /* Footer styles */
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            color: #666;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.5.0/jquery.mobile-1.5.0.min.js"></script>
+</head>
+
+<body>
+    <div data-role="page">
+        <div class="container">
+            <div data-role="header" class="header">
+                <h1>Simple Web Page</h1>
+            </div>
+
+            <div data-role="main" class="main-content">
+                <h2>Welcome to My Web Page</h2>
+                <p>This is a simple web page designed using jQuery Mobile.</p>
+
+                <div data-role="collapsible">
+                    <h3>More Information</h3>
+                    <div class="collapsible-content">
+                        <p>Here's some additional information about this web page.</p>
+                    </div>
+                </div>
+
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" data-icon="home">Home</a></li>
+                        <li><a href="#" data-icon="info">About</a></li>
+                        <li><a href="#" data-icon="grid">Services</a></li>
+                        <li><a href="#" data-icon="mail">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-role="footer" class="footer">
+                <h4>© 2023 My Web Page. All rights reserved.</h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
