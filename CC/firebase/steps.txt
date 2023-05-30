@@ -1,0 +1,18 @@
+Create your account on FirebaseGo 
+
+
+Go to console
+Enter project name and continue
+
+Click on </> button
+
+Fill neccessary details 
+Register app
+
+
+Realtime Database
+Test mode and enable
+
+{
+read : true
+wirte : true
